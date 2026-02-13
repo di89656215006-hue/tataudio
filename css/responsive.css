@@ -146,6 +146,10 @@
     min-height: 80vh;
   }
   
+  .hero__content {
+    padding-top: 80px;
+  }
+  
   .hero__title {
     font-size: clamp(2rem, 5vw, 3rem);
   }
@@ -295,6 +299,10 @@
     min-height: 70vh;
   }
   
+  .hero__content {
+    padding-top: 60px;
+  }
+  
   .hero__badge {
     font-size: 0.75rem;
     padding: var(--spacing-xs) var(--spacing-sm);
@@ -342,6 +350,7 @@
   
   .advantage-card {
     padding: var(--spacing-lg);
+    min-height: auto;
   }
   
   .advantage-card__icon {
@@ -373,9 +382,17 @@
     height: 200px;
   }
   
+  .product-card__content {
+    min-height: auto;
+  }
+  
   /* Services */
   .services__grid {
     grid-template-columns: 1fr;
+  }
+  
+  .service-card {
+    min-height: auto;
   }
   
   /* Gallery */
@@ -524,7 +541,7 @@
   }
   
   .hero__content {
-    padding: 0 var(--spacing-sm);
+    padding: 50px var(--spacing-sm) var(--spacing-lg);
   }
   
   .hero__badge {
@@ -564,6 +581,7 @@
   /* Advantages */
   .advantage-card {
     padding: var(--spacing-md);
+    min-height: auto;
   }
   
   .advantage-card__icon {
@@ -584,6 +602,7 @@
   
   .news-card__content {
     padding: var(--spacing-sm);
+    min-height: auto;
   }
   
   .news-card__title {
@@ -650,6 +669,7 @@
   
   .product-card__content {
     padding: var(--spacing-sm);
+    min-height: auto;
   }
   
   .product-card__title {
@@ -663,6 +683,7 @@
   /* Services */
   .service-card {
     padding: var(--spacing-md);
+    min-height: auto;
   }
   
   .service-card__icon {
@@ -696,6 +717,7 @@
   
   .team-card__content {
     padding: var(--spacing-md);
+    min-height: auto;
   }
   
   .team-card__name {
