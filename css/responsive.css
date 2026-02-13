@@ -92,7 +92,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
+    height: 100vh;
     width: 300px;
     background: var(--color-primary-bg);
     flex-direction: column;
@@ -100,8 +100,9 @@
     padding: 100px var(--spacing-lg) var(--spacing-lg);
     transform: translateX(-100%);
     transition: transform var(--transition-normal);
-    z-index: 999;
+    z-index: 1002;
     overflow-y: auto;
+    box-sizing: border-box;
   }
   
   .nav--active {
@@ -816,14 +817,14 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
     transition: opacity var(--transition-normal), visibility var(--transition-normal);
-    z-index: 998;
+    z-index: 1001;
   }
-  
+
   .nav-overlay--active {
     opacity: 1;
     visibility: visible;
