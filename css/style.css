@@ -182,17 +182,10 @@ ul, ol {
 }
 
 .header__logo {
-  flex-shrink: 0;
-}
-
-.header__actions .btn {
-  flex-shrink: 0;
-}
-
-.header__logo {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
+  flex-shrink: 0;
 }
 
 .header__logo-img {
@@ -260,6 +253,12 @@ ul, ol {
   align-items: center;
   flex-wrap: nowrap;
   gap: var(--spacing-md);
+}
+
+.header__actions .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  flex-shrink: 0;
 }
 
 .header__phone {
