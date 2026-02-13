@@ -182,6 +182,14 @@ ul, ol {
 }
 
 .header__logo {
+  flex-shrink: 0;
+}
+
+.header__actions .btn {
+  flex-shrink: 0;
+}
+
+.header__logo {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
@@ -261,6 +269,8 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .header__phone-icon {
