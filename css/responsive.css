@@ -133,6 +133,10 @@
     display: flex;
   }
   
+  .menu-toggle--active {
+    background: var(--color-accent-bright);
+  }
+  
   .header__phone {
     display: none;
   }

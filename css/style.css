@@ -177,6 +177,8 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: var(--spacing-md);
 }
 
 .header__logo {
@@ -247,6 +249,7 @@ ul, ol {
 .header__actions {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: var(--spacing-md);
 }
 
@@ -267,16 +270,33 @@ ul, ol {
 .menu-toggle {
   display: none;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
-  background: none;
+  width: 44px;
+  height: 44px;
+  background: var(--color-accent);
   border: none;
+  border-radius: var(--radius-md);
   cursor: pointer;
-  padding: var(--spacing-xs);
+  padding: 10px;
   z-index: 1001;
+  box-shadow: 0 2px 8px rgba(227, 30, 36, 0.4);
+  transition: background var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-normal);
+}
+
+.menu-toggle:hover {
+  background: var(--color-accent-bright);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(227, 30, 36, 0.5);
+}
+
+.menu-toggle:active {
+  transform: scale(0.95);
 }
 
 .menu-toggle__bar {
-  width: 25px;
+  width: 22px;
   height: 3px;
   background-color: var(--color-text-primary);
   border-radius: var(--radius-sm);
