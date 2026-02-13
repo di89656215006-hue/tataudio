@@ -210,10 +210,13 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: var(--spacing-lg);
+  flex: 1;
+  justify-content: center;
 }
 
 .nav__list {
   display: flex;
+  align-items: center;
   gap: var(--spacing-lg);
 }
 
@@ -225,6 +228,8 @@ ul, ol {
   letter-spacing: 0.5px;
   position: relative;
   padding: var(--spacing-xs) 0;
+  display: flex;
+  align-items: center;
 }
 
 .nav__link::after {
