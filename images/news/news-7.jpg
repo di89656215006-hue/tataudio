@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- New product -->
+  <rect x="120" y="50" width="160" height="120" rx="10" fill="#222"/>
+  <!-- Speaker icon -->
+  <circle cx="200" cy="100" r="40" fill="#333"/>
+  <circle cx="200" cy="100" r="28" fill="#222"/>
+  <circle cx="200" cy="100" r="15" fill="#E31E24"/>
+  <circle cx="200" cy="100" r="6" fill="#111"/>
+  <!-- NEW badge -->
+  <circle cx="260" cy="60" r="20" fill="#E31E24"/>
+  <text x="260" y="65" font-family="Montserrat, sans-serif" font-size="10" fill="#fff" text-anchor="middle">NEW</text>
+  <!-- Text -->
+  <text x="200" y="200" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Новая линейка Hertz</text>
+  <text x="200" y="220" font-family="Montserrat, sans-serif" font-size="12" fill="#E31E24" text-anchor="middle">Июль 2026</text>
+</svg>

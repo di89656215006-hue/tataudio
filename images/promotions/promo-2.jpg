@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Promo banner -->
+  <rect x="50" y="40" width="300" height="160" rx="10" fill="#222"/>
+  <!-- Gift box -->
+  <rect x="80" y="70" width="60" height="50" rx="5" fill="#E31E24"/>
+  <rect x="80" y="60" width="60" height="15" rx="3" fill="#E31E24"/>
+  <rect x="105" y="60" width="10" height="60" fill="#fff"/>
+  <path d="M95,60 Q110,40 125,60" fill="none" stroke="#fff" stroke-width="3"/>
+  <!-- Text -->
+  <text x="250" y="80" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle">Подарок</text>
+  <text x="250" y="100" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle">каждому</text>
+  <text x="250" y="130" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">комплект проводов</text>
+  <text x="250" y="150" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">при установке сабвуфера</text>
+  <!-- Timer -->
+  <rect x="100" y="175" width="200" height="20" rx="3" fill="#111"/>
+  <text x="200" y="190" font-family="Montserrat, sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">⏰ До 15 марта</text>
+  <!-- Text -->
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Весенние подарки</text>
+  <text x="200" y="260" font-family="Montserrat, sans-serif" font-size="12" fill="#E31E24" text-anchor="middle">2026</text>
+</svg>

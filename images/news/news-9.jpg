@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Sale/Discount -->
+  <rect x="100" y="50" width="200" height="140" rx="10" fill="#222"/>
+  <!-- Percentage -->
+  <text x="200" y="120" font-family="Montserrat, sans-serif" font-size="60" fill="#E31E24" text-anchor="middle">-20%</text>
+  <!-- Text on card -->
+  <text x="200" y="150" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle">на все услуги</text>
+  <!-- Decorative elements -->
+  <rect x="120" y="165" width="160" height="3" rx="1" fill="#E31E24"/>
+  <!-- Text -->
+  <text x="200" y="220" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Сезонная скидка</text>
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="12" fill="#E31E24" text-anchor="middle">Сентябрь 2026</text>
+</svg>

@@ -1,0 +1,26 @@
+# Robots.txt for ТАТаудио
+# https://tataudio.ru
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tataudio.ru/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow all search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for polite crawling
+Crawl-delay: 1

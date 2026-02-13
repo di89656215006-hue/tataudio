@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Amplifier body -->
+  <rect x="60" y="80" width="280" height="120" rx="5" fill="#222"/>
+  <!-- Heatsink fins -->
+  <rect x="70" y="90" width="5" height="100" fill="#333"/>
+  <rect x="85" y="90" width="5" height="100" fill="#333"/>
+  <rect x="100" y="90" width="5" height="100" fill="#333"/>
+  <rect x="295" y="90" width="5" height="100" fill="#333"/>
+  <rect x="310" y="90" width="5" height="100" fill="#333"/>
+  <rect x="325" y="90" width="5" height="100" fill="#333"/>
+  <!-- Controls -->
+  <circle cx="150" cy="120" r="15" fill="#111" stroke="#E31E24" stroke-width="2"/>
+  <circle cx="200" cy="120" r="15" fill="#111" stroke="#E31E24" stroke-width="2"/>
+  <circle cx="250" cy="120" r="15" fill="#111" stroke="#E31E24" stroke-width="2"/>
+  <!-- LEDs -->
+  <circle cx="150" cy="160" r="4" fill="#E31E24"/>
+  <circle cx="200" cy="160" r="4" fill="#00ff00"/>
+  <circle cx="250" cy="160" r="4" fill="#00ff00"/>
+  <!-- Text -->
+  <text x="200" y="250" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Усилители</text>
+</svg>

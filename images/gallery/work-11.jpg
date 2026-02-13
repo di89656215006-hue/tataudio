@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- DSP processor -->
+  <rect x="80" y="50" width="240" height="140" rx="8" fill="#222"/>
+  <!-- Display -->
+  <rect x="100" y="70" width="200" height="50" rx="5" fill="#111"/>
+  <text x="200" y="100" font-family="sans-serif" font-size="12" fill="#E31E24" text-anchor="middle">DSP PROCESSOR</text>
+  <!-- Controls -->
+  <circle cx="120" cy="145" r="10" fill="#333"/>
+  <circle cx="150" cy="145" r="10" fill="#333"/>
+  <circle cx="180" cy="145" r="10" fill="#333"/>
+  <circle cx="210" cy="145" r="10" fill="#333"/>
+  <circle cx="240" cy="145" r="10" fill="#333"/>
+  <circle cx="270" cy="145" r="10" fill="#333"/>
+  <!-- LED indicators -->
+  <circle cx="300" cy="70" r="3" fill="#E31E24"/>
+  <circle cx="300" cy="80" r="3" fill="#0f0"/>
+  <circle cx="300" cy="90" r="3" fill="#E31E24"/>
+  <!-- Connectors -->
+  <rect x="90" y="165" width="220" height="15" rx="3" fill="#111"/>
+  <!-- Text -->
+  <text x="200" y="225" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">Настройка DSP</text>
+  <text x="200" y="245" font-family="Montserrat, sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">Land Rover Discovery</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Cables -->
+  <path d="M80,100 Q120,80 160,100 Q200,120 240,100" stroke="#E31E24" stroke-width="4" fill="none"/>
+  <path d="M100,140 Q140,120 180,140 Q220,160 260,140" stroke="#333" stroke-width="4" fill="none"/>
+  <!-- Connectors -->
+  <rect x="280" y="80" width="40" height="30" rx="3" fill="#222"/>
+  <rect x="280" y="120" width="40" height="30" rx="3" fill="#222"/>
+  <!-- Fuse -->
+  <rect x="100" y="180" width="60" height="20" rx="3" fill="#222"/>
+  <rect x="110" y="185" width="40" height="10" fill="#E31E24"/>
+  <!-- Capacitor -->
+  <rect x="200" y="170" width="30" height="60" rx="5" fill="#222"/>
+  <text x="215" y="205" font-family="sans-serif" font-size="8" fill="#E31E24" text-anchor="middle">1F</text>
+  <!-- Wire terminals -->
+  <circle cx="320" cy="200" r="15" fill="#222"/>
+  <circle cx="320" cy="200" r="8" fill="#111"/>
+  <circle cx="350" cy="200" r="15" fill="#222"/>
+  <circle cx="350" cy="200" r="8" fill="#111"/>
+  <!-- Text -->
+  <text x="200" y="270" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Аксессуары</text>
+</svg>

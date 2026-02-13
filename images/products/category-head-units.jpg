@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Head unit -->
+  <rect x="100" y="80" width="200" height="120" rx="10" fill="#222"/>
+  <rect x="110" y="90" width="180" height="80" rx="5" fill="#111"/>
+  <!-- Display -->
+  <rect x="120" y="100" width="160" height="60" rx="3" fill="#1a1a2e"/>
+  <!-- Buttons -->
+  <circle cx="130" cy="180" r="8" fill="#333"/>
+  <circle cx="155" cy="180" r="8" fill="#333"/>
+  <circle cx="180" cy="180" r="8" fill="#333"/>
+  <circle cx="220" cy="180" r="8" fill="#E31E24"/>
+  <circle cx="245" cy="180" r="8" fill="#333"/>
+  <circle cx="270" cy="180" r="8" fill="#333"/>
+  <!-- Knob -->
+  <circle cx="300" cy="140" r="20" fill="#333" stroke="#E31E24" stroke-width="2"/>
+  <!-- Text -->
+  <text x="200" y="250" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Автомагнитолы</text>
+</svg>

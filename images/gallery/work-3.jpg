@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Door panel -->
+  <rect x="80" y="40" width="240" height="180" rx="15" fill="#222"/>
+  <!-- Door handle -->
+  <rect x="260" y="100" width="40" height="15" rx="5" fill="#333"/>
+  <!-- Speaker grille -->
+  <circle cx="200" cy="120" r="50" fill="#333"/>
+  <circle cx="200" cy="120" r="40" fill="#222"/>
+  <!-- Speaker -->
+  <circle cx="200" cy="120" r="35" fill="#333"/>
+  <circle cx="200" cy="120" r="25" fill="#222"/>
+  <circle cx="200" cy="120" r="12" fill="#E31E24"/>
+  <circle cx="200" cy="120" r="5" fill="#111"/>
+  <!-- Grille pattern -->
+  <circle cx="200" cy="120" r="45" fill="none" stroke="#444" stroke-width="1" stroke-dasharray="5,5"/>
+  <!-- Window switch -->
+  <rect x="120" y="180" width="30" height="20" rx="3" fill="#333"/>
+  <!-- Text -->
+  <text x="200" y="250" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">Установка акустики в двери</text>
+  <text x="200" y="270" font-family="Montserrat, sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">Mercedes C-Class</text>
+</svg>

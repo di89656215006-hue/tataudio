@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Person silhouette -->
+  <circle cx="200" cy="80" r="40" fill="#333"/>
+  <!-- Face details -->
+  <circle cx="185" cy="75" r="5" fill="#222"/>
+  <circle cx="215" cy="75" r="5" fill="#222"/>
+  <path d="M190,95 Q200,105 210,95" stroke="#222" stroke-width="2" fill="none"/>
+  <!-- Body -->
+  <path d="M140,140 Q200,120 260,140 L280,220 L120,220 Z" fill="#333"/>
+  <!-- Name tag -->
+  <rect x="120" y="180" width="160" height="30" rx="5" fill="#E31E24"/>
+  <text x="200" y="200" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle">Иван</text>
+  <!-- Role -->
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">Менеджер</text>
+  <text x="200" y="260" font-family="Montserrat, sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">Опыт: 4 года</text>
+</svg>

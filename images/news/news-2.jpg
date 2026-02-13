@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Trophy icon -->
+  <path d="M160,60 L240,60 L230,100 L170,100 Z" fill="#E31E24"/>
+  <rect x="185" y="100" width="30" height="20" fill="#E31E24"/>
+  <rect x="175" y="120" width="50" height="10" rx="3" fill="#E31E24"/>
+  <!-- Handles -->
+  <path d="M160,65 Q130,65 130,85 Q130,100 160,95" fill="none" stroke="#E31E24" stroke-width="5"/>
+  <path d="M240,65 Q270,65 270,85 Q270,100 240,95" fill="none" stroke="#E31E24" stroke-width="5"/>
+  <!-- Star -->
+  <polygon points="200,140 205,155 220,155 208,165 213,180 200,170 187,180 192,165 180,155 195,155" fill="#E31E24"/>
+  <!-- Text -->
+  <text x="200" y="220" font-family="Montserrat, sans-serif" font-size="14" fill="#666" text-anchor="middle">Награда выставки</text>
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="12" fill="#E31E24" text-anchor="middle">Февраль 2026</text>
+</svg>

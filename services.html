@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Услуги ТАТаудио - установка аудиосистем, шумоизоляция автомобиля, установка сигнализаций, настройка аудио, ремонт. Профессиональный сервис.">
+  <meta name="keywords" content="установка автозвука, шумоизоляция, сигнализации, настройка аудио, ремонт аудиосистем, Казань">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Услуги и цены - ТАТаудио">
+  <meta property="og:description" content="Профессиональные услуги по установке аудиосистем, шумоизоляции, сигнализаций. Гарантия на все работы.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tataudio.ru/services.html">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/icons/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <title>Услуги и цены - ТАТаудио</title>
+</head>
+<body>
+  <!-- Scroll Progress -->
+  <div class="scroll-progress"></div>
+  
+  <!-- Header -->
+  <header class="header header--scrolled">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">
+        <img src="images/icons/logo.svg" alt="ТАТаудио" class="header__logo-img">
+        <span class="header__logo-text">ТАТ<span>аудио</span></span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+          <li class="nav__item"><a href="services.html" class="nav__link nav__link--active">Услуги</a></li>
+          <li class="nav__item"><a href="gallery.html" class="nav__link">Галерея</a></li>
+          <li class="nav__item"><a href="promotions.html" class="nav__link">Акции</a></li>
+          <li class="nav__item"><a href="reviews.html" class="nav__link">Отзывы</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="team.html" class="nav__link">Команда</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header__actions">
+        <a href="tel:+79001234567" class="header__phone">
+          <svg class="header__phone-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +7 (900) 123-45-67
+        </a>
+        <button class="btn btn--primary" data-modal="callback-modal">Заказать звонок</button>
+      </div>
+      
+      <button class="menu-toggle" aria-label="Открыть меню">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header__content">
+          <h1 class="page-header__title fade-in">Услуги и цены</h1>
+          <nav class="page-header__breadcrumb fade-in-up">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <span>Услуги</span>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Filters -->
+        <div class="filters fade-in">
+          <button class="filter-btn filter-btn--active" data-service-filter="all">Все услуги</button>
+          <button class="filter-btn" data-service-filter="audio">Аудиосистемы</button>
+          <button class="filter-btn" data-service-filter="noise">Шумоизоляция</button>
+          <button class="filter-btn" data-service-filter="alarm">Сигнализации</button>
+          <button class="filter-btn" data-service-filter="tuning">Настройка</button>
+          <button class="filter-btn" data-service-filter="repair">Ремонт</button>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services__grid">
+          <!-- Установка аудиосистем -->
+          <article class="service-card fade-in-up" data-category="audio" id="audio">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="10 8 16 12 10 16 10 8"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Установка автомагнитол</h3>
+            <p class="service-card__description">Профессиональный монтаж головных устройств любых типов. Подключение с сохранением штатных функций.</p>
+            <div class="service-card__price">от 2 500 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              1-3 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="audio">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="2" width="16" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Установка акустики</h3>
+            <p class="service-card__description">Монтаж компонентной и коаксиальной акустики. Изготовление подиумов, прокладка проводки.</p>
+            <div class="service-card__price">от 3 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              2-4 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="audio">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18V5l12-2v13"/>
+                <circle cx="6" cy="18" r="3"/>
+                <circle cx="18" cy="16" r="3"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Установка сабвуферов</h3>
+            <p class="service-card__description">Установка активных и пассивных сабвуферов. Изготовление корпусов на заказ.</p>
+            <div class="service-card__price">от 4 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              2-5 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="audio">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Установка усилителей</h3>
+            <p class="service-card__description">Монтаж усилителей с качественной коммутацией. Настройка и тестирование системы.</p>
+            <div class="service-card__price">от 3 500 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              2-4 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <!-- Шумоизоляция -->
+          <article class="service-card fade-in-up" data-category="noise" id="noise">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Шумоизоляция дверей</h3>
+            <p class="service-card__description">Комплексная вибро-шумоизоляция дверей. Улучшение акустики и снижение шума.</p>
+            <div class="service-card__price">от 6 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              4-6 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="noise">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/>
+                <polygon points="12 15 17 21 7 21 12 15"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Шумоизоляция пола</h3>
+            <p class="service-card__description">Вибро-шумоизоляция пола автомобиля. Максимальное снижение дорожного шума.</p>
+            <div class="service-card__price">от 8 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              6-8 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="noise">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Шумоизоляция багажника</h3>
+            <p class="service-card__description">Обработка багажного отделения. Идеально для установки сабвуферов.</p>
+            <div class="service-card__price">от 5 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              3-5 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="noise">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4"/>
+                <path d="M12 8h.01"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Полная шумоизоляция</h3>
+            <p class="service-card__description">Комплексная обработка всего автомобиля. Максимальный эффект тишины.</p>
+            <div class="service-card__price">от 25 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              1-2 дня
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <!-- Сигнализации -->
+          <article class="service-card fade-in-up" data-category="alarm" id="alarm">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Установка сигнализаций</h3>
+            <p class="service-card__description">Монтаж охранных систем StarLine, Pandora, Alligator. Автозапуск, GPS-трекинг.</p>
+            <div class="service-card__price">от 8 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              4-8 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="alarm">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"/>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Автозапуск двигателя</h3>
+            <p class="service-card__description">Установка систем автозапуска. Дистанционный и автоматический запуск.</p>
+            <div class="service-card__price">от 5 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              3-5 часов
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <!-- Настройка -->
+          <article class="service-card fade-in-up" data-category="tuning" id="tuning">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="4" y1="21" x2="4" y2="14"/>
+                <line x1="4" y1="10" x2="4" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="12"/>
+                <line x1="12" y1="8" x2="12" y2="3"/>
+                <line x1="20" y1="21" x2="20" y2="16"/>
+                <line x1="20" y1="12" x2="20" y2="3"/>
+                <line x1="1" y1="14" x2="7" y2="14"/>
+                <line x1="9" y1="8" x2="15" y2="8"/>
+                <line x1="17" y1="16" x2="23" y2="16"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Настройка аудиосистемы</h3>
+            <p class="service-card__description">Профессиональная настройка с использованием измерительного оборудования.</p>
+            <div class="service-card__price">от 3 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              1-3 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="tuning">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Настройка DSP-процессора</h3>
+            <p class="service-card__description">Конфигурация и настройка цифровых процессоров. Поканальное усиление.</p>
+            <div class="service-card__price">от 5 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              2-4 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <!-- Ремонт -->
+          <article class="service-card fade-in-up" data-category="repair" id="repair">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Диагностика и ремонт</h3>
+            <p class="service-card__description">Диагностика неисправностей аудиосистем. Ремонт усилителей, магнитол.</p>
+            <div class="service-card__price">от 1 500 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              1-7 дней
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+
+          <article class="service-card fade-in-up" data-category="repair">
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Техническое обслуживание</h3>
+            <p class="service-card__description">Проверка и обслуживание аудиосистемы. Профилактика неисправностей.</p>
+            <div class="service-card__price">от 2 000 ₽</div>
+            <div class="service-card__duration">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              1-2 часа
+            </div>
+            <button class="btn btn--primary" data-modal="service-modal">Заказать</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section__title fade-in">Нужна консультация?</h2>
+          <p class="fade-in mb-lg" style="max-width: 600px; margin-left: auto; margin-right: auto;">
+            Наши специалисты помогут подобрать оптимальное решение для вашего автомобиля. 
+            Бесплатная консультация и расчёт стоимости работ.
+          </p>
+          <div class="fade-in-up">
+            <button class="btn btn--primary btn--lg" data-modal="callback-modal">Получить консультацию</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__logo-section">
+          <a href="index.html" class="footer__logo">
+            <img src="images/icons/logo.svg" alt="ТАТаудио" class="footer__logo-img">
+            <span class="footer__logo-text">ТАТ<span>аудио</span></span>
+          </a>
+          <p class="footer__description">Профессиональная студия автозвука. Установка аудиосистем, шумоизоляция, сигнализации.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="VK"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.57 4 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.678.847 2.456 2.27 4.606 2.862 4.606.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.15-3.574 2.15-3.574.186-.305.254-.44 0-.78-.186-.254-.796-.779-1.203-1.253-.745-.847-1.32-1.558-1.473-2.05-.17-.49.085-.744.576-.744z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="Telegram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <h4 class="footer__title">Каталог</h4>
+          <ul class="footer__list">
+            <li><a href="catalog.html?category=head-units" class="footer__link">Автомагнитолы</a></li>
+            <li><a href="catalog.html?category=speakers" class="footer__link">Акустика</a></li>
+            <li><a href="catalog.html?category=subwoofers" class="footer__link">Сабвуферы</a></li>
+            <li><a href="catalog.html?category=amplifiers" class="footer__link">Усилители</a></li>
+            <li><a href="catalog.html?category=accessories" class="footer__link">Аксессуары</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4 class="footer__title">Услуги</h4>
+          <ul class="footer__list">
+            <li><a href="services.html#audio" class="footer__link">Установка аудиосистем</a></li>
+            <li><a href="services.html#noise" class="footer__link">Шумоизоляция</a></li>
+            <li><a href="services.html#alarm" class="footer__link">Сигнализации</a></li>
+            <li><a href="services.html#tuning" class="footer__link">Настройка аудио</a></li>
+            <li><a href="services.html#repair" class="footer__link">Ремонт</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4 class="footer__title">Информация</h4>
+          <ul class="footer__list">
+            <li><a href="about.html" class="footer__link">О компании</a></li>
+            <li><a href="team.html" class="footer__link">Наша команда</a></li>
+            <li><a href="gallery.html" class="footer__link">Галерея работ</a></li>
+            <li><a href="reviews.html" class="footer__link">Отзывы</a></li>
+            <li><a href="promotions.html" class="footer__link">Акции</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 ТАТаудио. Все права защищены.</p>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+          <a href="#" class="footer__bottom-link">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal" id="callback-modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      <button class="modal__close">&times;</button>
+      <div class="modal__header"><h3 class="modal__title">Заказать звонок</h3></div>
+      <div class="modal__body">
+        <form data-validate>
+          <div class="form-group">
+            <label class="form-group__label form-group__label--required" for="callback-name">Ваше имя</label>
+            <input type="text" class="form-group__input" id="callback-name" name="name" placeholder="Введите ваше имя" required>
+            <span class="form-group__error">Введите ваше имя</span>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label form-group__label--required" for="callback-phone">Телефон</label>
+            <input type="tel" class="form-group__input" id="callback-phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <span class="form-group__error">Введите корректный номер телефона</span>
+          </div>
+          <div class="form-group">
+            <label class="form-checkbox">
+              <input type="checkbox" class="form-checkbox__input" name="agree" required>
+              <span class="form-checkbox__text">Я согласен с <a href="#">политикой конфиденциальности</a></span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Перезвоните мне</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="service-modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      <button class="modal__close">&times;</button>
+      <div class="modal__header"><h3 class="modal__title">Заказать услугу</h3></div>
+      <div class="modal__body">
+        <form data-validate>
+          <div class="form-group">
+            <label class="form-group__label form-group__label--required" for="service-name">Ваше имя</label>
+            <input type="text" class="form-group__input" id="service-name" name="name" placeholder="Введите ваше имя" required>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label form-group__label--required" for="service-phone">Телефон</label>
+            <input type="tel" class="form-group__input" id="service-phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="service-car">Марка и модель автомобиля</label>
+            <input type="text" class="form-group__input" id="service-car" name="car" placeholder="Например: Toyota Camry">
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="service-message">Комментарий</label>
+            <textarea class="form-group__textarea" id="service-message" name="message" placeholder="Опишите задачу"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-checkbox">
+              <input type="checkbox" class="form-checkbox__input" name="agree" required>
+              <span class="form-checkbox__text">Я согласен с <a href="#">политикой конфиденциальности</a></span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="notifications"></div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>

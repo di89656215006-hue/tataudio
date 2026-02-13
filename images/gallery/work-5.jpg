@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Amplifier rack -->
+  <rect x="60" y="50" width="280" height="170" rx="10" fill="#222"/>
+  <!-- Amplifiers -->
+  <rect x="80" y="70" width="120" height="60" rx="5" fill="#333"/>
+  <text x="140" y="105" font-family="sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">HERTZ</text>
+  <rect x="220" y="70" width="120" height="60" rx="5" fill="#333"/>
+  <text x="280" y="105" font-family="sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">AUDISON</text>
+  <!-- Wiring -->
+  <path d="M140,130 L140,160 L280,160 L280,130" stroke="#E31E24" stroke-width="3" fill="none"/>
+  <!-- Distribution block -->
+  <rect x="180" y="150" width="40" height="30" rx="3" fill="#333"/>
+  <circle cx="190" cy="165" r="5" fill="#E31E24"/>
+  <circle cx="210" cy="165" r="5" fill="#E31E24"/>
+  <!-- LED accent -->
+  <rect x="80" y="195" width="240" height="3" fill="#E31E24"/>
+  <!-- Text -->
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">Установка усилителей</text>
+  <text x="200" y="260" font-family="Montserrat, sans-serif" font-size="10" fill="#E31E24" text-anchor="middle">Lexus RX</text>
+</svg>

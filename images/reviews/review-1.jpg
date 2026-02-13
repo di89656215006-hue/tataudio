@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" fill="url(#bg)"/>
+  <!-- Person silhouette -->
+  <circle cx="50" cy="35" r="20" fill="#333"/>
+  <path d="M20,90 Q50,70 80,90 L80,100 L20,100 Z" fill="#333"/>
+  <!-- Initials -->
+  <text x="50" y="42" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#E31E24" text-anchor="middle">АК</text>
+</svg>

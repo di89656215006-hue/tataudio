@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A1A"/>
+      <stop offset="100%" style="stop-color:#0D0D0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- RCA cables -->
+  <path d="M80,80 Q150,60 220,80 Q290,100 320,80" stroke="#E31E24" stroke-width="6" fill="none"/>
+  <path d="M80,100 Q150,80 220,100 Q290,120 320,100" stroke="#fff" stroke-width="6" fill="none"/>
+  <!-- RCA connectors -->
+  <circle cx="80" cy="80" r="12" fill="#E31E24"/>
+  <circle cx="80" cy="80" r="6" fill="#111"/>
+  <circle cx="80" cy="100" r="12" fill="#fff"/>
+  <circle cx="80" cy="100" r="6" fill="#111"/>
+  <circle cx="320" cy="80" r="12" fill="#E31E24"/>
+  <circle cx="320" cy="80" r="6" fill="#111"/>
+  <circle cx="320" cy="100" r="12" fill="#fff"/>
+  <circle cx="320" cy="100" r="6" fill="#111"/>
+  <!-- Power wire -->
+  <rect x="80" y="140" width="240" height="15" rx="7" fill="#E31E24"/>
+  <text x="200" y="152" font-family="sans-serif" font-size="8" fill="#fff" text-anchor="middle">4GA POWER WIRE</text>
+  <!-- Fuse holder -->
+  <rect x="160" y="170" width="80" height="25" rx="5" fill="#222"/>
+  <rect x="170" y="175" width="60" height="15" fill="#E31E24"/>
+  <!-- Price tag -->
+  <rect x="120" y="220" width="160" height="30" rx="5" fill="#E31E24"/>
+  <text x="200" y="240" font-family="Montserrat, sans-serif" font-size="14" fill="#fff" text-anchor="middle">2 500 ₽</text>
+  <!-- Text -->
+  <text x="200" y="280" font-family="Montserrat, sans-serif" font-size="12" fill="#666" text-anchor="middle">Комплект проводов</text>
+</svg>
